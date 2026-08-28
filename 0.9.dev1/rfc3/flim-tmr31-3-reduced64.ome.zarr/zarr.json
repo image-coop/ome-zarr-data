@@ -1,0 +1,105 @@
+{
+  "attributes": {
+    "ome": {
+      "version": "0.9.dev1",
+      "multiscales": [
+        {
+          "name": "tmr31-3-reduced-64x",
+          "axes": [
+            {
+              "name": "c",
+              "type": "channel"
+            },
+            {
+              "name": "u",
+              "type": "time",
+              "unit": "nanosecond"
+            },
+            {
+              "name": "t",
+              "type": "time",
+              "unit": "second"
+            },
+            {
+              "name": "z",
+              "type": "space",
+              "unit": "micrometer"
+            },
+            {
+              "name": "y",
+              "type": "space",
+              "unit": "micrometer"
+            },
+            {
+              "name": "x",
+              "type": "space",
+              "unit": "micrometer"
+            }
+          ],
+          "datasets": [
+            {
+              "path": "s0",
+              "coordinateTransformations": [
+                {
+                  "scale": [
+                    1,
+                    0.096969697,
+                    160.65,
+                    1,
+                    0.54,
+                    0.54
+                  ],
+                  "type": "scale"
+                },
+                {
+                  "translation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "type": "translation"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "omero": {
+      "name": "tmr-31-3-reduced-64x",
+      "channels": [
+        {
+          "active": true,
+          "color": "FF00FF",
+          "family": "linear",
+          "inverted": false,
+          "label": "histoneH2B-mCherry",
+          "window": {
+            "min": 0,
+            "max": 255,
+            "start": 0,
+            "end": 35
+          }
+        },
+        {
+          "active": true,
+          "color": "FF00FF",
+          "family": "linear",
+          "inverted": false,
+          "label": "phospholipaseC-mKate2",
+          "window": {
+            "min": 0,
+            "max": 255,
+            "start": 0,
+            "end": 241
+          }
+        }
+      ]
+    }
+  },
+  "zarr_format": 3,
+  "node_type": "group"
+}
