@@ -15,3 +15,9 @@ Direct download to this specific image:
 https://ftp.ebi.ac.uk/biostudies/fire/S-BIAD/967/S-BIAD1967/Files/lifetime_separation/study_component_embryos/TMR31_3_sptw.7z
 
 The raw data has been downscaled and rechunked to produce the zarr file, using `flim-data-downscale.py`.
+
+This dataset can also be accessed directly with https at:
+
+```
+https://test-bucket.image.coop/rfc3/flim-tmr31-3-reduced64.ome.zarr
+```

@@ -9,3 +9,7 @@ https://www.dropbox.com/scl/fi/sdf72pk9qtq5zur4ofj2l/CP-Ti-abnormal-grains-spec-
 Then downscaled and rechunked with `ebsd-reduce.py`.
 
 [h5oina]: https://github.com/oinanoanalysis/h5oina/blob/master/H5OINAFile.md
+
+```
+https://test-bucket.image.coop/rfc3/CP-Ti-abnormal-grains.zarr
+```
