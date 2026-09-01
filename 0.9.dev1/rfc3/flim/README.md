@@ -21,3 +21,13 @@ This dataset can also be accessed directly with https at:
 ```
 https://test-bucket.image.coop/rfc3/flim-tmr31-3-reduced64.ome.zarr
 ```
+
+A script to load this dataset into napari can be found at this gist:
+
+https://gist.github.com/jni/d188d9778a4f3a3318c34256ee2b6e2e
+
+or you can install napari>=0.9.0 and napari-ome-zarr>=0.10.0 and run:
+
+```
+napari --plugin napari-ome-zarr https://test-bucket.image.coop/rfc3/flim-tmr31-3-reduced64.ome.zarr
+```
